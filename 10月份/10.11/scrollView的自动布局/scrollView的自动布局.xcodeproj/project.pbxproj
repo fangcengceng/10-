@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2080DB091DAD4162006DBC6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2080DB081DAD4162006DBC6C /* main.m */; };
+		2080DB0C1DAD4162006DBC6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2080DB0B1DAD4162006DBC6C /* AppDelegate.m */; };
+		2080DB0F1DAD4162006DBC6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2080DB0E1DAD4162006DBC6C /* ViewController.m */; };
+		2080DB121DAD4162006DBC6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2080DB101DAD4162006DBC6C /* Main.storyboard */; };
+		2080DB141DAD4162006DBC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2080DB131DAD4162006DBC6C /* Assets.xcassets */; };
+		2080DB171DAD4162006DBC6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2080DB151DAD4162006DBC6C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2080DB041DAD4162006DBC6C /* scrollView的自动布局.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "scrollView的自动布局.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2080DB081DAD4162006DBC6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2080DB0A1DAD4162006DBC6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2080DB0B1DAD4162006DBC6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2080DB0D1DAD4162006DBC6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2080DB0E1DAD4162006DBC6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2080DB111DAD4162006DBC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2080DB131DAD4162006DBC6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2080DB161DAD4162006DBC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2080DB181DAD4162006DBC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2080DB011DAD4162006DBC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2080DAFB1DAD4162006DBC6C = {
+			isa = PBXGroup;
+			children = (
+				2080DB061DAD4162006DBC6C /* scrollView的自动布局 */,
+				2080DB051DAD4162006DBC6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2080DB051DAD4162006DBC6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2080DB041DAD4162006DBC6C /* scrollView的自动布局.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2080DB061DAD4162006DBC6C /* scrollView的自动布局 */ = {
+			isa = PBXGroup;
+			children = (
+				2080DB0A1DAD4162006DBC6C /* AppDelegate.h */,
+				2080DB0B1DAD4162006DBC6C /* AppDelegate.m */,
+				2080DB0D1DAD4162006DBC6C /* ViewController.h */,
+				2080DB0E1DAD4162006DBC6C /* ViewController.m */,
+				2080DB101DAD4162006DBC6C /* Main.storyboard */,
+				2080DB131DAD4162006DBC6C /* Assets.xcassets */,
+				2080DB151DAD4162006DBC6C /* LaunchScreen.storyboard */,
+				2080DB181DAD4162006DBC6C /* Info.plist */,
+				2080DB071DAD4162006DBC6C /* Supporting Files */,
+			);
+			path = "scrollView的自动布局";
+			sourceTree = "<group>";
+		};
+		2080DB071DAD4162006DBC6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2080DB081DAD4162006DBC6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2080DB031DAD4162006DBC6C /* scrollView的自动布局 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2080DB1B1DAD4162006DBC6C /* Build configuration list for PBXNativeTarget "scrollView的自动布局" */;
+			buildPhases = (
+				2080DB001DAD4162006DBC6C /* Sources */,
+				2080DB011DAD4162006DBC6C /* Frameworks */,
+				2080DB021DAD4162006DBC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "scrollView的自动布局";
+			productName = "scrollView的自动布局";
+			productReference = 2080DB041DAD4162006DBC6C /* scrollView的自动布局.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2080DAFC1DAD4162006DBC6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = HM;
+				TargetAttributes = {
+					2080DB031DAD4162006DBC6C = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2080DAFF1DAD4162006DBC6C /* Build configuration list for PBXProject "scrollView的自动布局" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2080DAFB1DAD4162006DBC6C;
+			productRefGroup = 2080DB051DAD4162006DBC6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2080DB031DAD4162006DBC6C /* scrollView的自动布局 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2080DB021DAD4162006DBC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2080DB171DAD4162006DBC6C /* LaunchScreen.storyboard in Resources */,
+				2080DB141DAD4162006DBC6C /* Assets.xcassets in Resources */,
+				2080DB121DAD4162006DBC6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2080DB001DAD4162006DBC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2080DB0F1DAD4162006DBC6C /* ViewController.m in Sources */,
+				2080DB0C1DAD4162006DBC6C /* AppDelegate.m in Sources */,
+				2080DB091DAD4162006DBC6C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2080DB101DAD4162006DBC6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2080DB111DAD4162006DBC6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2080DB151DAD4162006DBC6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2080DB161DAD4162006DBC6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2080DB191DAD4162006DBC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2080DB1A1DAD4162006DBC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2080DB1C1DAD4162006DBC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "scrollView的自动布局/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.itheima.scrollView-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2080DB1D1DAD4162006DBC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "scrollView的自动布局/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.itheima.scrollView-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2080DAFF1DAD4162006DBC6C /* Build configuration list for PBXProject "scrollView的自动布局" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2080DB191DAD4162006DBC6C /* Debug */,
+				2080DB1A1DAD4162006DBC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2080DB1B1DAD4162006DBC6C /* Build configuration list for PBXNativeTarget "scrollView的自动布局" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2080DB1C1DAD4162006DBC6C /* Debug */,
+				2080DB1D1DAD4162006DBC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2080DAFC1DAD4162006DBC6C /* Project object */;
+}

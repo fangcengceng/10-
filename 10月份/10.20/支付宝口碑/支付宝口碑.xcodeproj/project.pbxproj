@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		204301B51DB8DBB20089FA9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 204301B41DB8DBB20089FA9A /* main.m */; };
+		204301B81DB8DBB30089FA9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 204301B71DB8DBB30089FA9A /* AppDelegate.m */; };
+		204301C11DB8DBB30089FA9A /* _____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 204301BF1DB8DBB30089FA9A /* _____.xcdatamodeld */; };
+		204301C31DB8DBB30089FA9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204301C21DB8DBB30089FA9A /* Assets.xcassets */; };
+		204301C61DB8DBB30089FA9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204301C41DB8DBB30089FA9A /* LaunchScreen.storyboard */; };
+		204301D11DB8DBB30089FA9A /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 204301D01DB8DBB30089FA9A /* _____UITests.m */; };
+		204301F61DB8DF530089FA9A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 204301DC1DB8DF530089FA9A /* Info.plist */; };
+		204301F71DB8DF530089FA9A /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 204301DE1DB8DF530089FA9A /* MASCompositeConstraint.m */; };
+		204301F81DB8DF530089FA9A /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 204301E11DB8DF530089FA9A /* MASConstraint.m */; };
+		204301F91DB8DF530089FA9A /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 204301E31DB8DF530089FA9A /* MASConstraintMaker.m */; };
+		204301FA1DB8DF530089FA9A /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 204301E51DB8DF530089FA9A /* MASLayoutConstraint.m */; };
+		204301FB1DB8DF530089FA9A /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 204301E91DB8DF530089FA9A /* MASViewAttribute.m */; };
+		204301FC1DB8DF530089FA9A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 204301EB1DB8DF530089FA9A /* MASViewConstraint.m */; };
+		204301FD1DB8DF530089FA9A /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 204301ED1DB8DF530089FA9A /* NSArray+MASAdditions.m */; };
+		204301FE1DB8DF530089FA9A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 204301F01DB8DF530089FA9A /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		204301FF1DB8DF530089FA9A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 204301F21DB8DF530089FA9A /* View+MASAdditions.m */; };
+		204302001DB8DF530089FA9A /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 204301F51DB8DF530089FA9A /* ViewController+MASAdditions.m */; };
+		204302021DB8DF5F0089FA9A /* business.plist in Resources */ = {isa = PBXBuildFile; fileRef = 204302011DB8DF5F0089FA9A /* business.plist */; };
+		204302051DB8DFE70089FA9A /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 204302041DB8DFE70089FA9A /* MainController.m */; };
+		2043020C1DB8E49F0089FA9A /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 204302081DB8E49F0089FA9A /* NSObject+YYModel.m */; };
+		2043020D1DB8E49F0089FA9A /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2043020A1DB8E49F0089FA9A /* YYClassInfo.m */; };
+		204302101DB8E4F40089FA9A /* BusinessModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2043020F1DB8E4F40089FA9A /* BusinessModel.m */; };
+		204302131DB8F2590089FA9A /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 204302121DB8F2590089FA9A /* HeaderView.m */; };
+		204302161DB8FE460089FA9A /* FooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 204302151DB8FE460089FA9A /* FooterView.m */; };
+		204302191DB9029E0089FA9A /* ZFBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 204302181DB9029E0089FA9A /* ZFBTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		204301CD1DB8DBB30089FA9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 204301A81DB8DBB20089FA9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 204301AF1DB8DBB20089FA9A;
+			remoteInfo = "支付宝口碑";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		204301B01DB8DBB20089FA9A /* 支付宝口碑.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "支付宝口碑.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		204301B41DB8DBB20089FA9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		204301B61DB8DBB30089FA9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		204301B71DB8DBB30089FA9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		204301C01DB8DBB30089FA9A /* _____.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_____.xcdatamodel"; sourceTree = "<group>"; };
+		204301C21DB8DBB30089FA9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		204301C51DB8DBB30089FA9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		204301C71DB8DBB30089FA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204301CC1DB8DBB30089FA9A /* 支付宝口碑UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "支付宝口碑UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		204301D01DB8DBB30089FA9A /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		204301D21DB8DBB30089FA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204301DC1DB8DF530089FA9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204301DD1DB8DF530089FA9A /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		204301DE1DB8DF530089FA9A /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		204301DF1DB8DF530089FA9A /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		204301E01DB8DF530089FA9A /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		204301E11DB8DF530089FA9A /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		204301E21DB8DF530089FA9A /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		204301E31DB8DF530089FA9A /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		204301E41DB8DF530089FA9A /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		204301E51DB8DF530089FA9A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		204301E61DB8DF530089FA9A /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		204301E71DB8DF530089FA9A /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		204301E81DB8DF530089FA9A /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		204301E91DB8DF530089FA9A /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		204301EA1DB8DF530089FA9A /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		204301EB1DB8DF530089FA9A /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		204301EC1DB8DF530089FA9A /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		204301ED1DB8DF530089FA9A /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		204301EE1DB8DF530089FA9A /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		204301EF1DB8DF530089FA9A /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		204301F01DB8DF530089FA9A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		204301F11DB8DF530089FA9A /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		204301F21DB8DF530089FA9A /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		204301F31DB8DF530089FA9A /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		204301F41DB8DF530089FA9A /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		204301F51DB8DF530089FA9A /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		204302011DB8DF5F0089FA9A /* business.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = business.plist; sourceTree = "<group>"; };
+		204302031DB8DFE70089FA9A /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		204302041DB8DFE70089FA9A /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		204302071DB8E49F0089FA9A /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		204302081DB8E49F0089FA9A /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		204302091DB8E49F0089FA9A /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		2043020A1DB8E49F0089FA9A /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		2043020B1DB8E49F0089FA9A /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		2043020E1DB8E4F40089FA9A /* BusinessModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessModel.h; sourceTree = "<group>"; };
+		2043020F1DB8E4F40089FA9A /* BusinessModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessModel.m; sourceTree = "<group>"; };
+		204302111DB8F2590089FA9A /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		204302121DB8F2590089FA9A /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		204302141DB8FE460089FA9A /* FooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooterView.h; sourceTree = "<group>"; };
+		204302151DB8FE460089FA9A /* FooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FooterView.m; sourceTree = "<group>"; };
+		204302171DB9029E0089FA9A /* ZFBTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBTableViewCell.h; sourceTree = "<group>"; };
+		204302181DB9029E0089FA9A /* ZFBTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		204301AD1DB8DBB20089FA9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204301C91DB8DBB30089FA9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		204301A71DB8DBB20089FA9A = {
+			isa = PBXGroup;
+			children = (
+				204301B21DB8DBB20089FA9A /* 支付宝口碑 */,
+				204301CF1DB8DBB30089FA9A /* 支付宝口碑UITests */,
+				204301B11DB8DBB20089FA9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		204301B11DB8DBB20089FA9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				204301B01DB8DBB20089FA9A /* 支付宝口碑.app */,
+				204301CC1DB8DBB30089FA9A /* 支付宝口碑UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		204301B21DB8DBB20089FA9A /* 支付宝口碑 */ = {
+			isa = PBXGroup;
+			children = (
+				204302061DB8E49F0089FA9A /* YYModel */,
+				204301DB1DB8DF530089FA9A /* Masonry */,
+				204301B61DB8DBB30089FA9A /* AppDelegate.h */,
+				204301B71DB8DBB30089FA9A /* AppDelegate.m */,
+				204302031DB8DFE70089FA9A /* MainController.h */,
+				204302041DB8DFE70089FA9A /* MainController.m */,
+				204302171DB9029E0089FA9A /* ZFBTableViewCell.h */,
+				204302181DB9029E0089FA9A /* ZFBTableViewCell.m */,
+				204302141DB8FE460089FA9A /* FooterView.h */,
+				204302151DB8FE460089FA9A /* FooterView.m */,
+				204302111DB8F2590089FA9A /* HeaderView.h */,
+				204302121DB8F2590089FA9A /* HeaderView.m */,
+				2043020E1DB8E4F40089FA9A /* BusinessModel.h */,
+				2043020F1DB8E4F40089FA9A /* BusinessModel.m */,
+				204302011DB8DF5F0089FA9A /* business.plist */,
+				204301C21DB8DBB30089FA9A /* Assets.xcassets */,
+				204301C41DB8DBB30089FA9A /* LaunchScreen.storyboard */,
+				204301C71DB8DBB30089FA9A /* Info.plist */,
+				204301BF1DB8DBB30089FA9A /* _____.xcdatamodeld */,
+				204301B31DB8DBB20089FA9A /* Supporting Files */,
+			);
+			path = "支付宝口碑";
+			sourceTree = "<group>";
+		};
+		204301B31DB8DBB20089FA9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				204301B41DB8DBB20089FA9A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		204301CF1DB8DBB30089FA9A /* 支付宝口碑UITests */ = {
+			isa = PBXGroup;
+			children = (
+				204301D01DB8DBB30089FA9A /* _____UITests.m */,
+				204301D21DB8DBB30089FA9A /* Info.plist */,
+			);
+			path = "支付宝口碑UITests";
+			sourceTree = "<group>";
+		};
+		204301DB1DB8DF530089FA9A /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				204301DC1DB8DF530089FA9A /* Info.plist */,
+				204301DD1DB8DF530089FA9A /* MASCompositeConstraint.h */,
+				204301DE1DB8DF530089FA9A /* MASCompositeConstraint.m */,
+				204301DF1DB8DF530089FA9A /* MASConstraint+Private.h */,
+				204301E01DB8DF530089FA9A /* MASConstraint.h */,
+				204301E11DB8DF530089FA9A /* MASConstraint.m */,
+				204301E21DB8DF530089FA9A /* MASConstraintMaker.h */,
+				204301E31DB8DF530089FA9A /* MASConstraintMaker.m */,
+				204301E41DB8DF530089FA9A /* MASLayoutConstraint.h */,
+				204301E51DB8DF530089FA9A /* MASLayoutConstraint.m */,
+				204301E61DB8DF530089FA9A /* Masonry.h */,
+				204301E71DB8DF530089FA9A /* MASUtilities.h */,
+				204301E81DB8DF530089FA9A /* MASViewAttribute.h */,
+				204301E91DB8DF530089FA9A /* MASViewAttribute.m */,
+				204301EA1DB8DF530089FA9A /* MASViewConstraint.h */,
+				204301EB1DB8DF530089FA9A /* MASViewConstraint.m */,
+				204301EC1DB8DF530089FA9A /* NSArray+MASAdditions.h */,
+				204301ED1DB8DF530089FA9A /* NSArray+MASAdditions.m */,
+				204301EE1DB8DF530089FA9A /* NSArray+MASShorthandAdditions.h */,
+				204301EF1DB8DF530089FA9A /* NSLayoutConstraint+MASDebugAdditions.h */,
+				204301F01DB8DF530089FA9A /* NSLayoutConstraint+MASDebugAdditions.m */,
+				204301F11DB8DF530089FA9A /* View+MASAdditions.h */,
+				204301F21DB8DF530089FA9A /* View+MASAdditions.m */,
+				204301F31DB8DF530089FA9A /* View+MASShorthandAdditions.h */,
+				204301F41DB8DF530089FA9A /* ViewController+MASAdditions.h */,
+				204301F51DB8DF530089FA9A /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		204302061DB8E49F0089FA9A /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				204302071DB8E49F0089FA9A /* NSObject+YYModel.h */,
+				204302081DB8E49F0089FA9A /* NSObject+YYModel.m */,
+				204302091DB8E49F0089FA9A /* YYClassInfo.h */,
+				2043020A1DB8E49F0089FA9A /* YYClassInfo.m */,
+				2043020B1DB8E49F0089FA9A /* YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		204301AF1DB8DBB20089FA9A /* 支付宝口碑 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204301D51DB8DBB30089FA9A /* Build configuration list for PBXNativeTarget "支付宝口碑" */;
+			buildPhases = (
+				204301AC1DB8DBB20089FA9A /* Sources */,
+				204301AD1DB8DBB20089FA9A /* Frameworks */,
+				204301AE1DB8DBB20089FA9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "支付宝口碑";
+			productName = "支付宝口碑";
+			productReference = 204301B01DB8DBB20089FA9A /* 支付宝口碑.app */;
+			productType = "com.apple.product-type.application";
+		};
+		204301CB1DB8DBB30089FA9A /* 支付宝口碑UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204301D81DB8DBB30089FA9A /* Build configuration list for PBXNativeTarget "支付宝口碑UITests" */;
+			buildPhases = (
+				204301C81DB8DBB30089FA9A /* Sources */,
+				204301C91DB8DBB30089FA9A /* Frameworks */,
+				204301CA1DB8DBB30089FA9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				204301CE1DB8DBB30089FA9A /* PBXTargetDependency */,
+			);
+			name = "支付宝口碑UITests";
+			productName = "支付宝口碑UITests";
+			productReference = 204301CC1DB8DBB30089FA9A /* 支付宝口碑UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		204301A81DB8DBB20089FA9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = HM;
+				TargetAttributes = {
+					204301AF1DB8DBB20089FA9A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					204301CB1DB8DBB30089FA9A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 204301AF1DB8DBB20089FA9A;
+					};
+				};
+			};
+			buildConfigurationList = 204301AB1DB8DBB20089FA9A /* Build configuration list for PBXProject "支付宝口碑" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 204301A71DB8DBB20089FA9A;
+			productRefGroup = 204301B11DB8DBB20089FA9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				204301AF1DB8DBB20089FA9A /* 支付宝口碑 */,
+				204301CB1DB8DBB30089FA9A /* 支付宝口碑UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		204301AE1DB8DBB20089FA9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204301F61DB8DF530089FA9A /* Info.plist in Resources */,
+				204301C61DB8DBB30089FA9A /* LaunchScreen.storyboard in Resources */,
+				204301C31DB8DBB30089FA9A /* Assets.xcassets in Resources */,
+				204302021DB8DF5F0089FA9A /* business.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204301CA1DB8DBB30089FA9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		204301AC1DB8DBB20089FA9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204302101DB8E4F40089FA9A /* BusinessModel.m in Sources */,
+				204302131DB8F2590089FA9A /* HeaderView.m in Sources */,
+				204301F91DB8DF530089FA9A /* MASConstraintMaker.m in Sources */,
+				204301C11DB8DBB30089FA9A /* _____.xcdatamodeld in Sources */,
+				204301F81DB8DF530089FA9A /* MASConstraint.m in Sources */,
+				204302001DB8DF530089FA9A /* ViewController+MASAdditions.m in Sources */,
+				204301FA1DB8DF530089FA9A /* MASLayoutConstraint.m in Sources */,
+				204301FD1DB8DF530089FA9A /* NSArray+MASAdditions.m in Sources */,
+				2043020C1DB8E49F0089FA9A /* NSObject+YYModel.m in Sources */,
+				204301FC1DB8DF530089FA9A /* MASViewConstraint.m in Sources */,
+				204302161DB8FE460089FA9A /* FooterView.m in Sources */,
+				204301FB1DB8DF530089FA9A /* MASViewAttribute.m in Sources */,
+				204301FF1DB8DF530089FA9A /* View+MASAdditions.m in Sources */,
+				204301B81DB8DBB30089FA9A /* AppDelegate.m in Sources */,
+				204301B51DB8DBB20089FA9A /* main.m in Sources */,
+				2043020D1DB8E49F0089FA9A /* YYClassInfo.m in Sources */,
+				204301F71DB8DF530089FA9A /* MASCompositeConstraint.m in Sources */,
+				204302051DB8DFE70089FA9A /* MainController.m in Sources */,
+				204302191DB9029E0089FA9A /* ZFBTableViewCell.m in Sources */,
+				204301FE1DB8DF530089FA9A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		204301C81DB8DBB30089FA9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204301D11DB8DBB30089FA9A /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		204301CE1DB8DBB30089FA9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 204301AF1DB8DBB20089FA9A /* 支付宝口碑 */;
+			targetProxy = 204301CD1DB8DBB30089FA9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		204301C41DB8DBB30089FA9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				204301C51DB8DBB30089FA9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		204301D31DB8DBB30089FA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		204301D41DB8DBB30089FA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		204301D61DB8DBB30089FA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "支付宝口碑/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.itheima.umeng20.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		204301D71DB8DBB30089FA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "支付宝口碑/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.itheima.umeng20.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		204301D91DB8DBB30089FA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "支付宝口碑UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.itheima.umeng20.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "支付宝口碑";
+			};
+			name = Debug;
+		};
+		204301DA1DB8DBB30089FA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "支付宝口碑UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.itheima.umeng20.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "支付宝口碑";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		204301AB1DB8DBB20089FA9A /* Build configuration list for PBXProject "支付宝口碑" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204301D31DB8DBB30089FA9A /* Debug */,
+				204301D41DB8DBB30089FA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		204301D51DB8DBB30089FA9A /* Build configuration list for PBXNativeTarget "支付宝口碑" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204301D61DB8DBB30089FA9A /* Debug */,
+				204301D71DB8DBB30089FA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		204301D81DB8DBB30089FA9A /* Build configuration list for PBXNativeTarget "支付宝口碑UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204301D91DB8DBB30089FA9A /* Debug */,
+				204301DA1DB8DBB30089FA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		204301BF1DB8DBB30089FA9A /* _____.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				204301C01DB8DBB30089FA9A /* _____.xcdatamodel */,
+			);
+			currentVersion = 204301C01DB8DBB30089FA9A /* _____.xcdatamodel */;
+			path = "_____.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 204301A81DB8DBB20089FA9A /* Project object */;
+}

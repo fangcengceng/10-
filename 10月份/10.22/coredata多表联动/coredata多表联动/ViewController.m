@@ -20,6 +20,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self newCityData];
+    NSLog(@"%@",NSHomeDirectory());
     [self loadData];
 
 }
@@ -27,20 +29,16 @@
 -(void)loadData{
     //查询请求
     NSFetchRequest *request = [User fetchRequest];
-    
-    
     NSManagedObjectContext *moc = [HMCoreDataManager sharedManager].moc;
     request.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"username" ascending:YES]];
-    request.predicate = [NSPredicate predicateWithFormat:@"city.cityName = %@",@"北京"];
-    
-    
-    
+    request.predicate = [NSPredicate predicateWithFormat:@"city.cityName = %@",@"北京"];  
     //查询结果
     _fectchResult = [[NSFetchedResultsController alloc] initWithFetchRequest:request managedObjectContext:moc sectionNameKeyPath:@"city.cityName" cacheName:nil];
     
     //执行查询
     [_fectchResult performFetch:nil];
     NSLog(@"%zd",_fectchResult.fetchedObjects.count);
+    NSLog(@"%zd",_fectchResult.sections.count);
     
     
 }

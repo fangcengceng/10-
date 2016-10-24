@@ -36,8 +36,6 @@
 
 }
 
-
-
 -(void)loadData{
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"businessType.plist" ofType:nil];
